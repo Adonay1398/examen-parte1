@@ -1,0 +1,86 @@
+body{
+background-color:#f1f3f6 ;
+font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+.titulo{
+    width: 20rem;
+}
+.titulo img{
+    width: 20rem;
+    border: 1rem 1rem 0 0 ;
+    
+
+    
+}
+
+.contenedor-leyenda{
+    width: 20rem;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0rem;
+}
+.estilo-leyenda{
+    color: #0c0d11;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif, bold;
+    text-align:left;
+    
+}  
+input{
+    background-color: transparent;
+    
+    border-radius: 12px;
+    margin: 5px;
+
+}
+ .inicio-sesión{
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin:10px;
+    background-color: #1977f1 ;
+    text-align: center;
+    color: #fafcff;
+    border: none;
+
+ }  
+ .inicio-sesión:hover{
+    border-color: #80accf; 
+
+}
+ .contraseña{
+    width: 12rem;
+    height: 1.5rem;
+    border:none;
+    text-align:center;
+    color: #3c85dd;
+
+ }
+ .linea{
+    width: 10rem;
+    height: .0625rem;
+    background:grey;
+    
+    
+
+ }
+.cuenta-nueva{
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 150px;
+    margin-top: .5rem;
+    border: none;
+    text-align:center;
+    color: #f1f3f6;
+    background-color: #41b729;
+}
+.caja{
+    
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
